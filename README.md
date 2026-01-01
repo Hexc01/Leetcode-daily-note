@@ -1,2 +1,4 @@
 # Leetcode-daily-note
-leetcode in python
+## Leetcode in python
+THIS IS A SELF-USE NOTEBOOK FOR DAYLY LEARING IN LEETCODE.
+WELCOME TO LEARN AND RAISE QUESTIONS.
