@@ -32,3 +32,21 @@ right-left-1，高为height[i]  left默认-1,right默认n
 zip() 将对应位置的元素组合成元组
         for h,l,r in zip(heights,left,right):
             ans=max(ans,h*(r-l-1))
+# 测验1.2
+1. 人工加法，for循环里面用return达到一直验末尾9的功能
+2. 判断条件if left==right and left!=0 and right!=n-1:
+3. 字符集合变字符串'a','b'->"ab"   ''.join()   直接哈希表用dict
+left=Counter(s):哈希表（继承关系Counter → dict → object），存每个字母还有几个
+ans=[]:列表（list → object），存最终需要的唯一字母
+in_ans=set():集合（set → object）无序不重复   in_ans.remove()  ans.pop()
+这道题每次加进来的都是ans和in_ans
+# 队列
+1. 参考答案更简便
+2. 灵神  tk = tickets[k]
+                 return sum(min(t, tk - (i > k)) for i, t in enumerate(tickets))
+3. 构造函数
+  def __init__(self):
+          self.a,self.b=[],[]
+# 堆
+1. heap=[-x for x in stones]列表所有元素倒置
+heapq函数:
